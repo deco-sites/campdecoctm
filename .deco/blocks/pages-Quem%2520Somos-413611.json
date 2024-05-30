@@ -3,6 +3,12 @@
   "path": "/quem-somos",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem somos",
+      "description": "Quem somos",
+      "type": "article"
+    },
+    {
       "__resolveType": "site/sections/Content/Hero.tsx",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/9b8a2ac3-7cfa-441f-837c-72016fa58d06",
       "placement": "right",
@@ -16,6 +22,16 @@
           "text": "Vá pra casa"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<p><em>Produtos e Experiências:</em></p><ul><li><p><em>Culinária Internacional: Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais.</em></p></li><li><p><em>Artes e Artesanato: Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.</em></p></li><li><p><em>Moda e Acessórios: Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais.</em></p></li></ul>",
+      "containerWidth": 800
+    },
+    {
+      "__resolveType": "site/sections/Cupom.tsx",
+      "codCupom": "#000001",
+      "description": "<p>Pegue o cupom pra ganhar 1 centavo de desconto :D</p>"
     }
   ],
   "seo": {
