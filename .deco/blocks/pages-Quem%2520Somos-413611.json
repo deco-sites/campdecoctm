@@ -3,6 +3,9 @@
   "path": "/quem-somos",
   "sections": [
     {
+      "__resolveType": "Header 002"
+    },
+    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Quem somos",
       "description": "Quem somos",

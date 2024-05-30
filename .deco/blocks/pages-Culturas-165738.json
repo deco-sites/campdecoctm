@@ -1,0 +1,23 @@
+{
+  "name": "Culturas",
+  "path": "/culturas",
+  "sections": [
+    {
+      "__resolveType": "Header 002"
+    },
+    {
+      "__resolveType": "Banner Grid - 01"
+    },
+    {
+      "__resolveType": "site/sections/Lugar.tsx",
+      "temperatura": {
+        "celsius": 23
+      },
+      "texto": "Não sei se entendi a tarefa"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
