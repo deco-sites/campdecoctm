@@ -5,14 +5,36 @@
       "__resolveType": "Header 002"
     },
     {
-      "__resolveType": "site/sections/ProductAd.tsx",
-      "product": {
-        "title": "Fake Product",
-        "description": "Prod description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi magna, ultricies vel nulla tristique, pretium porta libero. Aliquam posuere ornare elit. Mauris eu iaculis sapien, et elementum erat. Suspendisse ac luctus magna. Vivamus bibendum elit sed sollicitudin tincidunt. Donec quis quam leo.",
-        "price": 20.99,
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/8f85c92c-b02f-47fb-8a67-a40caeae6d89"
-      },
-      "adDescription": "Ad Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi magna, ultricies vel nulla tristique, pretium porta libero. Aliquam posuere ornare elit. Mauris eu iaculis sapien, et elementum erat. Suspendisse ac luctus magna. Vivamus bibendum elit sed sollicitudin tincidunt. Donec quis quam leo."
+      "__resolveType": "site/sections/PartialProductAd.tsx",
+      "message": "I Love this Product!",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/7ad315a6-f3dd-4a14-9dcd-c9fc1ef1868f",
+      "buttonTitle": "Another Product!",
+      "productAds": [
+        {
+          "product": {
+            "title": "Product Fake 2",
+            "description": "lorem ipsum tes",
+            "price": 59.9,
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/0328a447-4727-4c8b-81c8-b135fa138ef1"
+          }
+        },
+        {
+          "product": {
+            "title": "Fake Product 3",
+            "price": 119.9,
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/77efc602-34ad-422d-a9c7-300778bacdc0"
+          },
+          "adDescription": "optional descript"
+        },
+        {
+          "product": {
+            "title": "Fake Product 1",
+            "description": "descripto",
+            "price": 899.9,
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10574/7972d1a1-b400-4c78-8f83-8d2c39159239"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",

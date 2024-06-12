@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-interface Props {
+export interface ProductAdProps {
   product: {
     title: string;
     description?: string;
@@ -19,7 +19,7 @@ const formatPrice = (price: number) => {
   });
 };
 
-const ProductAd = ({ product, adDescription }: Props) => {
+const ProductAd = ({ product, adDescription }: ProductAdProps) => {
   return (
     <div class="w-11/12 max-w-7xl mx-auto flex my-8 flex-col justify-center items-center lg:flex-row">
       <div class="w-full max-w-sm relative">
