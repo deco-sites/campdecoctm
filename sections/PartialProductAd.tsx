@@ -40,7 +40,7 @@ const PartialProductAd = (
         </div>
         <div class="lg:w-[30%] flex flex-col items-center justify-center">
           <p>{message}</p>
-          <Image src={image} width={100} />
+          <Image class="hover:scale-110" src={image} width={100} />
           <button
             class="bg-white mt-4"
             {...usePartialSection({ props: { indexActive: currentIndex + 1 } })}
